@@ -70,7 +70,7 @@ body {
     height: 100vh;
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url('D:/3 YEAR NOTES/GM 471 PRE DESSERTATION/Web_System/view.png');
+        url('view.png');                    /* ← Changed here */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -81,30 +81,6 @@ body {
     color: white;
     position: relative;
 }
-
-.hero-content {
-    max-width: 850px;
-    padding: 0 20px;
-    position: relative;
-    z-index: 2;
-}
-
-.hero h1 {
-    font-size: 3.8rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
-}
-
-.highlight {
-    color: #60a5fa;
-}
-
-.hero p {
-    font-size: 1.35rem;
-    margin-bottom: 2.5rem;
-    opacity: 0.95;
-}
-
 /* ==================== ABOUT PAGE STYLES ==================== */
 .about-section {
     padding: 100px 8%;
