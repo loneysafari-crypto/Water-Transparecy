@@ -70,7 +70,7 @@ body {
     height: 100vh;
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url('me.png');           /* Changed to me.png - update if needed */
+        url('view.png');           /* Changed to me.png - update if needed */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
