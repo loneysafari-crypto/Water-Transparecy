@@ -70,7 +70,7 @@ body {
     height: 100vh;
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url('view.png');           /* Changed to me.png - update if needed */
+        url('view.png');           /* ← Changed to view.png */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -80,6 +80,13 @@ body {
     text-align: center;
     color: white;
     position: relative;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 850px;
+    padding: 0 20px;
 }
 
 .hero-content {
